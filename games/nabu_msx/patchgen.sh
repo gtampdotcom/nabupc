@@ -128,10 +128,10 @@ for game in "${gameList[@]}"; do
                     patch_value="PSG_WRITE"
                     ;;
                 "(0a1h)")
-                    patch_value="PSG_READ"
+                    patch_value="PSG_LATCH"
                     ;;
                 "(0a2h)")
-                    patch_value="PSG_LATCH"
+                    patch_value="PSG_WRITE"
                     ;;
             esac
             
