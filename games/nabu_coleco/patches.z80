@@ -27,7 +27,7 @@ joust_patches:
     .byte 3, 0xc3
     .word 0x3000
     
-   ; Patch RST 0x18 vector for joystick stick 1
+    ; Patch RST 0x18 vector for joystick stick 1
     .word 0x8012
     .byte 3, 0xc3
     .word 0x3009 ; most games use 3006 but Joust is swapped
