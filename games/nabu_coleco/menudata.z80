@@ -2,52 +2,157 @@
 
 .section .data, "adrw"
 menudata:
-    .byte 16
-    .byte "Burger Time        ", 0
+    .byte 51
+    .byte "BC's Quest for Tire", 0
     .byte 5
-    .word 0x88A0
-    .byte "Carnival           ", 0
+    .word 0xf804
+    .byte "Bump 'N' Jump      ", 0
     .byte 6
-    .word 0x67BC
-    .byte "Congo Bongo        ", 0
+    .word 0xd75f
+    .byte "Burgertime         ", 0
     .byte 7
-    .word 0x9C15
-    .byte "Donkey Kong        ", 0
+    .word 0x88a0
+    .byte "Carnival           ", 0
     .byte 8
-    .word 0x0DC3
-    .byte "Donkey Kong Jr     ", 0
+    .word 0x67bc
+    .byte "Congo Bongo        ", 0
     .byte 9
-    .word 0xD9FA
-    .byte "Joust              ", 0
+    .word 0x9c15
+    .byte "Cosmic Avenger     ", 0
     .byte 10
-    .word 0x2C8F
-    .byte "Jumpman Jr.        ", 0
+    .word 0x9fe0
+    .byte "Dacman             ", 0
     .byte 11
-    .word 0xB3B2
-    .byte "Lady Bug           ", 0
+    .word 0xaf56
+    .byte "Dam Busters, The   ", 0
     .byte 12
-    .word 0x4F44
-    .byte "Montezuma's Revenge", 0
+    .word 0x84ef
+    .byte "Dance Fantasy      ", 0
     .byte 13
-    .word 0xF95F
-    .byte "Mr. Do             ", 0
+    .word 0xac32
+    .byte "Dig Dug            ", 0
     .byte 14
-    .word 0xEE84
-    .byte "Pepper II          ", 0
+    .word 0x602c
+    .byte "Digger             ", 0
     .byte 15
-    .word 0xFE4F
-    .byte "Pitfall            ", 0
+    .word 0x9860
+    .byte "Donkey Kong Jr     ", 0
     .byte 16
-    .word 0x2A56
-    .byte "Pitfall II         ", 0
+    .word 0xd9fa
+    .byte "Donkey Kong for Ada", 0
     .byte 17
-    .word 0xD6E4
-    .byte "Q-Bert II          ", 0
+    .word 0x638d
+    .byte "Escape From The Min", 0
     .byte 18
-    .word 0xA647
-    .byte "Smurfs             ", 0
+    .word 0x8212
+    .byte "Evolution          ", 0
     .byte 19
-    .word 0xC959
-    .byte "Tutankham          ", 0
+    .word 0x7567
+    .byte "Frenzy!            ", 0
     .byte 20
-    .word 0x3E76
+    .word 0x6b8d
+    .byte "Frogger            ", 0
+    .byte 21
+    .word 0x34ac
+    .byte "Gateway to Apshai  ", 0
+    .byte 22
+    .word 0x9ed5
+    .byte "Gorf               ", 0
+    .byte 23
+    .word 0x0c2d
+    .byte "Joust              ", 0
+    .byte 24
+    .word 0x2c8f
+    .byte "Jumpman Junior     ", 0
+    .byte 25
+    .word 0xb3b2
+    .byte "Ken Uston's Blackja", 0
+    .byte 26
+    .word 0xd676
+    .byte "Lady Bug           ", 0
+    .byte 27
+    .word 0x4f44
+    .byte "Learning With Leepe", 0
+    .byte 28
+    .word 0x7bf6
+    .byte "Montezuma's Revenge", 0
+    .byte 29
+    .word 0xf95f
+    .byte "Motocross Racer    ", 0
+    .byte 30
+    .word 0xa956
+    .byte "Mountain King      ", 0
+    .byte 31
+    .word 0x12c8
+    .byte "Mr. Do!            ", 0
+    .byte 32
+    .word 0xee84
+    .byte "Ms. Space Fury     ", 0
+    .byte 33
+    .word 0x9821
+    .byte "Nova Blast         ", 0
+    .byte 34
+    .word 0x2254
+    .byte "Oil's Well         ", 0
+    .byte 35
+    .word 0xf88d
+    .byte "Omega Race         ", 0
+    .byte 36
+    .word 0x87f2
+    .byte "Pac-Man            ", 0
+    .byte 37
+    .word 0x5eca
+    .byte "Pepper II          ", 0
+    .byte 38
+    .word 0xfe4f
+    .byte "Pitfall II - Lost C", 0
+    .byte 39
+    .word 0xd6e4
+    .byte "Pitfall!           ", 0
+    .byte 40
+    .word 0x2a56
+    .byte "Purple Dinosaur Mas", 0
+    .byte 41
+    .word 0xd18d
+    .byte "Q-bert II          ", 0
+    .byte 42
+    .word 0xa647
+    .byte "Robin Hood         ", 0
+    .byte 43
+    .word 0x497c
+    .byte "Rocky Super-Action ", 0
+    .byte 44
+    .word 0x33ed
+    .byte "Skiing             ", 0
+    .byte 45
+    .word 0x432c
+    .byte "Smurf - Rescue in G", 0
+    .byte 46
+    .word 0xc959
+    .byte "Space Fury         ", 0
+    .byte 47
+    .word 0xefd6
+    .byte "Space Panic        ", 0
+    .byte 48
+    .word 0x1708
+    .byte "Squish 'Em Sam!    ", 0
+    .byte 49
+    .word 0x50d7
+    .byte "Star Trek - Strateg", 0
+    .byte 50
+    .word 0xd361
+    .byte "Tank Wars          ", 0
+    .byte 51
+    .word 0xfc07
+    .byte "Tomarc the Barbaria", 0
+    .byte 52
+    .word 0xcc94
+    .byte "Tutankham          ", 0
+    .byte 53
+    .word 0x68c3
+    .byte "Up 'N Down         ", 0
+    .byte 54
+    .word 0xff63
+    .byte "Zaxxon             ", 0
+    .byte 55
+    .word 0x39ff
