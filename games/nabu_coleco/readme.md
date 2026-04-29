@@ -86,5 +86,5 @@ Current games known working:
 - Tank Wars (1983) (Bit Corp) [!]
 - Tomarc the Barbarian (1984) (Xonox)
 - Tutankham (1983) (Parker Bros)
-Up 'N Down (1984) (Sega)
-Zaxxon (1982) (Sega)
+- Up 'N Down (1984) (Sega)
+- Zaxxon (1982) (Sega)
